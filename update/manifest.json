@@ -1,6 +1,6 @@
 {
   "launcher": {
-    "version": "11.7.0",
+    "version": "1.0.0",
     "url": "https://bibe707.github.io/thanhnguyenhoi-update/downloads/NguyenGioiLauncher-Setup.exe",
     "notes": "Phiên bản v11.7.0 - Nâng cấp auto-update, multi-thread download, auto-detect RAM."
   },
