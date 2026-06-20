@@ -1,0 +1,82 @@
+[
+	{
+		"name":"F3RULLO14",
+		"rank":"OWNER",
+		"bio":"Founder"
+	},
+	{
+		"name":"CakeBrains",
+		"rank":"LEADER",
+		"bio":"Project Manager"
+	},
+	{
+		"name":"iNovaa",
+		"rank":"LEADER",
+		"bio":"Hi, I'm Nova and I am part of the leadership team here at Crafting Dead, I am British, I have been on the Crafting Dead scene since release."
+	},
+	{
+        "name": "Sm0keySa1m0n",
+        "rank": "DEV",
+        "bio": "Hi, my name's Joe and I'm a 15 year old Software Engineer, a Brit and if you haven't worked it out, a developer for Crafting Dead."
+    },
+	{
+		"name":"Phoenixx",
+		"rank":"DEV",
+		"bio":"Heyo, I'm a 17 year old Software Engineer from Canada and I'm currently working as a developer here at Crafting Dead."
+	},
+	{
+		"name":"ThatAbstractWolf",
+		"rank":"DEV",
+		"bio":"I am a software Engineer based in the United Kingdom, I am 17 and I work as a plugin and mod developer here at Crafting Dead."
+	},
+	{
+		"name":"woag",
+		"rank":"DEV",
+		"bio":"Expert keyboard warrior."
+	},
+	{
+		"name":"oJazzer",
+		"rank":"COMMUNITY_MANAGER",
+		"bio":"Hey! My name's Jazzer and I'm an Administrator for Crafting Dead. I run events and coordinate all social media platforms."
+	},
+	{
+		"name":"zandnstorm",
+		"rank":"COMMUNITY_MANAGER",
+		"bio":"I'm Zand and I'm a Community Manager for Crafting Dead. I manage the moderators in game and on discord. The moderation team helps deal with chat and in game assistance."
+	},
+	{
+		"name":"Distroyer5266",
+		"rank":"COMMUNITY_MANAGER",
+		"bio":"My name is Jeremy. I have been a player on Crafting Dead since the day it was created. I am the head builder meaning I lead the team that manages and makes the maps."
+	},
+	{
+		"name":"Synco_",
+		"rank":"ASSET_DEVELOPER",
+		"bio":"I make and manage Crafting Dead Discord bots."
+	},
+	{
+		"name":"war_monger",
+		"rank":"ASSET_DEVELOPER",
+		"bio":"Hi, I'm Ben, I've been doing modeling for Minecraft related projects for 5-6 years now. I primarily work with Flans mod, I own a WW2 content pack named Warfare44."
+	},
+	{
+		"name":"LegionPlaysMC",
+		"rank":"STAFF",
+		"bio":"I am always on Discord."
+	},
+	{
+		"name":"TankCommander36",
+		"rank":"STAFF",
+		"bio":"Cool people don't have bios"
+	},
+	{
+		"name":"M_Rose917",
+		"rank":"STAFF",
+		"bio":"I am Rose, my real name is Maddison and I am a moderator and I enjoy my job."
+	},
+	{
+		"name":"coolhunter17",
+		"rank":"STAFF",
+		"bio":"I keep the community happy, by just helping out, and talking with others."
+	}
+]
