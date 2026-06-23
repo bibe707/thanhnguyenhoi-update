@@ -1,60 +1,134 @@
 {
-  "_doc": "Đặt file này tại https://thanhnguyenhoi.com/news.json — Launcher sẽ tự tải mỗi khi mở. Chỉ cần sửa file này khi có tin mới.",
+  "_doc": "File tin tức cho Launcher. Mỗi server có tin tức riêng. Đặt tại https://bibe707.github.io/thanhnguyenhoi-update/news.json. Chạy `npm run update-news` để push lên GitHub Pages.",
   "updated": "2026-06-23",
-  "news": [
-    {
-      "id": "event-summer-2026",
-      "cat": "event",
-      "label": "Sự Kiện",
-      "title": "Đại Sự Kiện Hè — Summer 2026 chính thức khởi tranh",
-      "summary": "Đăng nhập nhận skin giới hạn, đua top nhận Long Tệ khổng lồ.",
-      "date": "30.05.2026",
-      "url": "https://thanhnguyenhoi.com/#!/news/event-summer-2026"
+  "servers": {
+    "craftingdead": {
+      "_name": "Crafting Dead v3",
+      "news": [
+        {
+          "id": "cd-update-1-6-4",
+          "cat": "update",
+          "label": "Cập Nhật",
+          "title": "Crafting Dead v3 — Bản sửa lỗi 1.6.4 mới nhất",
+          "summary": "Sửa lỗi crash khi vào server, tối ưu hiệu năng.",
+          "date": "20.06.2026",
+          "url": "https://thanhnguyenhoi.com/#!/news/cd-update-1-6-4"
+        },
+        {
+          "id": "cd-event-weekend",
+          "cat": "event",
+          "label": "Sự Kiện",
+          "title": "Sự kiện cuối tuần: Săn zombie nhận quà",
+          "summary": "Tỉ lệ rơi đồ đặc biệt tăng gấp đôi cuối tuần.",
+          "date": "18.06.2026",
+          "url": "https://thanhnguyenhoi.com/#!/news/cd-event-weekend"
+        }
+      ]
     },
-    {
-      "id": "update-2-6-loi-dinh",
-      "cat": "update",
-      "label": "Cập Nhật",
-      "title": "Phiên bản 2.6 — Lôi Đình Chiến Thần gia nhập Nguyên Giới",
-      "summary": "Class mới, hệ Thiên Phú thức tỉnh và cân bằng meta toàn diện.",
-      "date": "28.05.2026",
-      "url": "https://thanhnguyenhoi.com/#!/news/update-2-6-loi-dinh"
+    "nguyengioi": {
+      "_name": "NguyenGioiOnline",
+      "news": [
+        {
+          "id": "event-summer-2026",
+          "cat": "event",
+          "label": "Sự Kiện",
+          "title": "Đại Sự Kiện Hè — Summer 2026 chính thức khởi tranh",
+          "summary": "Đăng nhập nhận skin giới hạn, đua top nhận Long Tệ khổng lồ.",
+          "date": "30.05.2026",
+          "url": "https://thanhnguyenhoi.com/#!/news/event-summer-2026"
+        },
+        {
+          "id": "update-2-6-loi-dinh",
+          "cat": "update",
+          "label": "Cập Nhật",
+          "title": "Phiên bản 2.6 — Lôi Đình Chiến Thần gia nhập Nguyên Giới",
+          "summary": "Class mới, hệ Thiên Phú thức tỉnh và cân bằng meta toàn diện.",
+          "date": "28.05.2026",
+          "url": "https://thanhnguyenhoi.com/#!/news/update-2-6-loi-dinh"
+        },
+        {
+          "id": "guide-new-player-7-days",
+          "cat": "guide",
+          "label": "Hướng Dẫn",
+          "title": "Tân thủ nhập môn: Lộ trình lên cấp thần tốc trong 7 ngày",
+          "summary": "Tổng hợp mọi gói quà cấp bậc và mẹo cày cuốc hiệu quả.",
+          "date": "26.05.2026",
+          "url": "https://thanhnguyenhoi.com/#!/news/guide-new-player-7-days"
+        },
+        {
+          "id": "maint-31-05",
+          "cat": "maint",
+          "label": "Bảo Trì",
+          "title": "Thông báo bảo trì máy chủ định kỳ 31.05",
+          "summary": "Thời gian 02:00 – 05:00. Đền bù 500 Long Tệ cho toàn server.",
+          "date": "25.05.2026",
+          "url": "https://thanhnguyenhoi.com/#!/news/maint-31-05"
+        },
+        {
+          "id": "event-chaos-divine-gear",
+          "cat": "event",
+          "label": "Sự Kiện",
+          "title": "Rút Thưởng Siêu Cấp — săn trang bị Chaos Divine Gear",
+          "summary": "Tỉ lệ ra đồ RRR tăng gấp đôi trong tuần lễ ra mắt.",
+          "date": "24.05.2026",
+          "url": "https://thanhnguyenhoi.com/#!/news/event-chaos-divine-gear"
+        },
+        {
+          "id": "update-title-system",
+          "cat": "update",
+          "label": "Cập Nhật",
+          "title": "Hệ thống Danh Hiệu mới: khoe đẳng cấp với cả server",
+          "summary": "Trọng Sinh Giả, Đệ Nhất Ám Sát, Bounty Hunter… và nhiều hơn.",
+          "date": "22.05.2026",
+          "url": "https://thanhnguyenhoi.com/#!/news/update-title-system"
+        }
+      ]
     },
-    {
-      "id": "guide-new-player-7-days",
-      "cat": "guide",
-      "label": "Hướng Dẫn",
-      "title": "Tân thủ nhập môn: Lộ trình lên cấp thần tốc trong 7 ngày",
-      "summary": "Tổng hợp mọi gói quà cấp bậc và mẹo cày cuốc hiệu quả.",
-      "date": "26.05.2026",
-      "url": "https://thanhnguyenhoi.com/#!/news/guide-new-player-7-days"
+    "dayz1201": {
+      "_name": "DayZ Mod 1.20.1",
+      "news": [
+        {
+          "id": "dayz-update-tacz",
+          "cat": "update",
+          "label": "Cập Nhật",
+          "title": "Cập nhật TACZ 1.1.6 — Sửa lỗi súng, thêm vũ khí mới",
+          "summary": "Hotfix sửa lỗi crash khi nạp đạn, tối ưu hiệu năng bắn.",
+          "date": "22.06.2026",
+          "url": "https://thanhnguyenhoi.com/#!/news/dayz-update-tacz"
+        },
+        {
+          "id": "dayz-event-loot",
+          "cat": "event",
+          "label": "Sự Kiện",
+          "title": "Sự kiện: Loot x2 — Săn đồ cao cấp khắp bản đồ",
+          "summary": "Tỉ lệ loot đồ hiếm tăng gấp đôi trong tuần lễ sự kiện.",
+          "date": "20.06.2026",
+          "url": "https://thanhnguyenhoi.com/#!/news/dayz-event-loot"
+        },
+        {
+          "id": "dayz-maint-25-06",
+          "cat": "maint",
+          "label": "Bảo Trì",
+          "title": "Bảo trì DayZ 25.06 — Cập nhật config và mod",
+          "summary": "Thời gian bảo trì 03:00 – 06:00. Server sẽ khởi động lại.",
+          "date": "24.06.2026",
+          "url": "https://thanhnguyenhoi.com/#!/news/dayz-maint-25-06"
+        }
+      ]
     },
-    {
-      "id": "maint-31-05",
-      "cat": "maint",
-      "label": "Bảo Trì",
-      "title": "Thông báo bảo trì máy chủ định kỳ 31.05",
-      "summary": "Thời gian 02:00 – 05:00. Đền bù 500 Long Tệ cho toàn server.",
-      "date": "25.05.2026",
-      "url": "https://thanhnguyenhoi.com/#!/news/maint-31-05"
-    },
-    {
-      "id": "event-chaos-divine-gear",
-      "cat": "event",
-      "label": "Sự Kiện",
-      "title": "Rút Thưởng Siêu Cấp — săn trang bị Chaos Divine Gear",
-      "summary": "Tỉ lệ ra đồ RRR tăng gấp đôi trong tuần lễ ra mắt.",
-      "date": "24.05.2026",
-      "url": "https://thanhnguyenhoi.com/#!/news/event-chaos-divine-gear"
-    },
-    {
-      "id": "update-title-system",
-      "cat": "update",
-      "label": "Cập Nhật",
-      "title": "Hệ thống Danh Hiệu mới: khoe đẳng cấp với cả server",
-      "summary": "Trọng Sinh Giả, Đệ Nhất Ám Sát, Bounty Hunter… và nhiều hơn.",
-      "date": "22.05.2026",
-      "url": "https://thanhnguyenhoi.com/#!/news/update-title-system"
+    "all": {
+      "_name": "Tin chung",
+      "news": [
+        {
+          "id": "launcher-v1-1",
+          "cat": "update",
+          "label": "Cập Nhật",
+          "title": "Launcher v1.1.0 — Đồng bộ tin tức từ website",
+          "summary": "Launcher giờ tự tải tin tức mới mỗi khi mở.",
+          "date": "23.06.2026",
+          "url": "https://thanhnguyenhoi.com"
+        }
+      ]
     }
-  ]
+  }
 }
