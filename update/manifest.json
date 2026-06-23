@@ -16350,6 +16350,12 @@
                                                        "url":  "https://bibe707.github.io/thanhnguyenhoi-update/files/dayz1201/tacz/tacz_default_gun/README.txt",
                                                        "sha1":  "9ba143d7ef7603a01acff27d11b8b04610e9d5d2",
                                                        "size":  385
+                                                   },
+                                                   {
+                                                       "path":  "resourcepacks/TransparentGUI-1.20.X-R1.zip",
+                                                       "url":  "https://github.com/bibe707/thanhnguyenhoi-update/releases/download/rp-v1.0/TransparentGUI-1.20.X-R1.zip",
+                                                       "sha1":  "22a3e2e921f4e4f7290b0588cd9bd334df0d6dc0",
+                                                       "size":  99396
                                                    }
                                                ]
                                  }
