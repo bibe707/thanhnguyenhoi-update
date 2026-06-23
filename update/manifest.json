@@ -1,8 +1,8 @@
 {
     "launcher":  {
-                     "version":  "1.0.0",
-                     "url":  "https://bibe707.github.io/thanhnguyenhoi-update/downloads/NguyenGioiLauncher-Setup.exe",
-                     "notes":  "Phien ban dau tien chinh thuc."
+                     "version":  "1.1.0",
+                     "url":  "https://github.com/bibe707/thanhnguyenhoi-update/releases/download/rp-v1.0/NguyenGioiLauncher-v1.1.0-win32-x64.zip",
+                     "notes":  "Fix bao mat + Fix loi RAM 4GB chiem 6GB + Tu tai Resource Pack"
                  },
     "news":  [
                  {
