@@ -1,0 +1,260 @@
+{
+  "general": {
+    "generateOverrideConfigs": {
+      "value": false,
+      "comment": "Nếu true, file config override công thức chế tạo và sát thương, cùng với file ngôn ngữ mẫu, sẽ được xuất ra thư mục config khi khởi động. CẢNH BÁO: việc này sẽ ghi đè file override hiện có! File ngôn ngữ phải đặt trong pack mới hoạt động và KHÔNG ghi đè gì."
+    },
+    "opSignEditingOnly": {
+      "value": false,
+      "comment": "Nếu true, chỉ OP mới có thể chỉnh sửa biển hiệu trên server. Không ảnh hưởng thế giới client."
+    },
+    "opPickupVehiclesOnly": {
+      "value": false,
+      "comment": "Nếu true, chỉ OP mới có thể nhấc phương tiện bằng cờ lê. Không ảnh hưởng thế giới client."
+    },
+    "creativePickupVehiclesOnly": {
+      "value": false,
+      "comment": "Nếu true, phương tiện chỉ có thể nhấc lên trong chế độ Creative."
+    },
+    "keyRequiredToStartVehicles": {
+      "value": true,
+      "comment": "Nếu true, phương tiện chỉ có thể khởi động khi người chơi cầm chìa khóa trên tay. Bật để tăng tính sinh tồn DayZ."
+    },
+    "noclipVehicles": {
+      "value": false,
+      "comment": "Nếu true, phương tiện sẽ không va chạm với block. Việc này cũng ngăn chúng di chuyển nếu không có bánh xe, vì nếu không chúng sẽ xuyên qua mặt đất xuống void."
+    },
+    "chunkloadVehicles": {
+      "value": false,
+      "comment": "Nếu true, phương tiện sẽ được chunkload khi trên đường/ra-lev. Cho phép di chuyển vào chunk chưa tải. Đã tắt để tránh lag server DayZ."
+    },
+    "doLegacyLightCompats": {
+      "value": true,
+      "comment": "Nếu true, mã tương thích legacy sẽ chạy trên tất cả model để đèn hoạt động với phiên bản mới. Mã này làm chậm thời gian khởi động đáng kể do cần parse tất cả model, tuy nhiên pack có thể không có đèn hoạt động nếu tắt. Chọn giữa tốc độ và tính năng."
+    },
+    "useHSV": {
+      "value": false,
+      "comment": "Nếu bật, MTS dev mode sẽ xuất giá trị màu dưới dạng HSV thay vì hex."
+    },
+    "allPlanesWithNav": {
+      "value": false,
+      "comment": "Nếu true, tất cả máy bay sẽ có khả năng sử dụng beacon để định hướng. Mặc định false để tác giả pack tự định nghĩa máy bay mới/cũ có tính năng này, nhưng có thể bật nếu không quan tâm tính thực tế."
+    },
+    "giveManualsOnJoin": {
+      "value": false,
+      "comment": "Nếu true, mỗi khi người chơi mới tham gia thế giới, họ sẽ nhận sách hướng dẫn mod, bao gồm máy quét phụ tùng. Đã tắt vì không phù hợp DayZ sinh tồn."
+    },
+    "performModCompatFunctions": {
+      "value": true,
+      "comment": "Nếu true, các hàm tương thích mod sẽ được thực thi. Nên giữ true trừ khi đang cấu hình modpack và đã xử lý các xung đột."
+    },
+    "forceRenderLastSolid": {
+      "value": false,
+      "comment": "Nếu bật, MTS sẽ render ở sự kiện world-last của Forge. Thường không cần, nhưng có thể dùng nếu mod khác làm vật thể vô hình. Replaymod là một ví dụ."
+    },
+    "devMode": {
+      "value": false,
+      "comment": "Nếu bật, MTS sẽ cho phép truy cập GUI dev mode khi ngồi trên phương tiện. GUI cho phép chỉnh sửa JSON trong game không cần restart."
+    },
+    "roadMaxLength": {
+      "value": 32,
+      "comment": "Độ dài tối đa của một đoạn đường, tính bằng block. Có thể dài hơn nhưng sẽ có nhiều collision box hơn và gây lag khi phá hoặc tương tác, có thể không render nếu nằm ngoài chunk. Phải là số nguyên."
+    },
+    "aircraftSpeedFactor": {
+      "value": 0.35,
+      "comment": "Hệ số áp dụng cho chuyển động máy bay. 1 là giá trị thực tế, nhưng làm phương tiện di chuyển quá nhanh trong Minecraft. Điều chỉnh cẩn thận."
+    },
+    "carSpeedFactor": {
+      "value": 0.35,
+      "comment": "Hệ số áp dụng cho chuyển động ô tô. 1 là giá trị thực tế, nhưng làm phương tiện di chuyển quá nhanh trong Minecraft. Điều chỉnh cẩn thận."
+    },
+    "fuelUsageFactor": {
+      "value": 1.0,
+      "comment": "Hệ số nhân tiêu thụ nhiên liệu của động cơ. Thay đổi nếu nhiên liệu tiêu hao quá nhanh hoặc chậm. Đặt 0 sẽ tắt nhiên liệu và động cơ chạy không cần nó."
+    },
+    "engineHoursFactor": {
+      "value": 1.0,
+      "comment": "Hệ số nhân tích lũy giờ hoạt động động cơ. Thay đổi để điều chỉnh tốc độ hao mòn động cơ."
+    },
+    "climbSpeed": {
+      "value": 0.125,
+      "comment": "Khoảng cách phương tiện sẽ leo block mỗi tick khi bánh xe chìm xuống đất. Giá trị cao hơn làm xe leo block nhanh hơn nhưng di chuyển kém mượt."
+    },
+    "gravityFactor": {
+      "value": 1.0,
+      "comment": "Hệ số lực hấp dẫn áp dụng lên phương tiện. Có thể điều chỉnh nếu ô tô quá nhẹ bổng. Không ảnh hưởng máy bay."
+    },
+    "maxFlightHeight": {
+      "value": 0.0,
+      "comment": "Độ cao tối đa máy bay có thể bay. Đặt 0 (mặc định) cho phép bay cao theo vật lý tự nhiên. Hữu ích nếu muốn giới hạn độ cao."
+    },
+    "engineSpeedTempFactor": {
+      "value": 1.0,
+      "comment": "Hệ số ảnh hưởng của RPM lên nhiệt độ động cơ. Giá trị cao hơn làm động cơ nóng nhanh hơn ở RPM cao."
+    },
+    "engineBiomeTempFactor": {
+      "value": 1.0,
+      "comment": "Hệ số ảnh hưởng của nhiệt độ biome lên nhiệt độ động cơ. Giá trị cao hơn làm động cơ nóng nhanh hơn ở biome nóng."
+    },
+    "rfToElectricityFactor": {
+      "value": 0.02,
+      "comment": "Hệ số chuyển đổi RF sang điện nội bộ cho phương tiện. Giá trị mặc định 1/100, có thể điều chỉnh."
+    },
+    "vehicleDeathDespawnTime": {
+      "value": 0.0,
+      "comment": "Thời gian (giây) từ khi phương tiện hết máu đến khi biến mất. Mặc định 0 nghĩa là không bao giờ biến mất."
+    },
+    "seaLevel": {
+      "value": 63,
+      "comment": "Mức Y dùng làm mốc độ cao. Cũng được dùng trong tính toán hiệu suất động cơ. Chỉ thay đổi nếu hiểu rõ ý nghĩa."
+    },
+    "defaultVehicleRepairMaterials": {
+      "value": [],
+      "comment": "Danh sách vật phẩm dùng để sửa phương tiện mặc định, nếu không có công thức sửa trong JSON của phương tiện."
+    },
+    "defaultPartRepairMaterials": {
+      "value": [],
+      "comment": "Danh sách vật phẩm dùng để sửa phụ tùng mặc định, nếu không có công thức sửa trong JSON của phụ tùng."
+    },
+    "engineDimensionBlacklist": {
+      "value": [],
+      "comment": "Danh sách đen tên dimension nơi động cơ không thể khởi động. Dùng để vô hiệu hóa phương tiện trong dimension cụ thể."
+    },
+    "engineDimensionWhitelist": {
+      "value": [],
+      "comment": "Danh sách trắng tên dimension nơi động cơ chỉ được phép hoạt động. Ghi đè danh sách đen nếu có."
+    },
+    "packVehicleScales": {
+      "value": {
+        "mts": 1.0,
+        "mtsofficialpack": 1.0
+      },
+      "comment": "Tỷ lệ kích thước của tất cả phương tiện trong pack. Thường không cần thay đổi, nhưng có thể giảm nếu muốn phương tiện nhỏ hơn."
+    },
+    "packSpeedFactors": {
+      "value": {
+        "mts": 1.0,
+        "mtsofficialpack": 1.0
+      },
+      "comment": "Ánh xạ hệ số tốc độ theo pack. Giá trị chỉ áp dụng cho phương tiện trong pack được chỉ định. Cho phép tăng tốc pack chậm hoặc giảm tốc pack nhanh. Lưu ý: áp dụng lên trên hệ số tốc độ toàn cục. Ví dụ toàn cục 0.30 + pack 0.5 = tổng 0.15."
+    },
+    "itemWeights": {
+      "comment1": "Phần sau dùng để tính toán trọng lượng vật phẩm. Bất kỳ vật phẩm nào chứa đoạn text sẽ có trọng lượng nhân với hệ số tương ứng.",
+      "comment2": "Trọng lượng ảnh hưởng đến hiệu suất phương tiện, đặc biệt là tải trọng. Một số giá trị mặc định được cung cấp, có thể thêm/xóa tùy ý.",
+      "comment3": "Lưu ý: phần tên được tìm kiếm là registry name của vật phẩm, KHÔNG phải tên hiển thị trong game. Tương tự lệnh /give.",
+      "weights": {
+        "gold": 4.0,
+        "diamond": 4.0,
+        "ore": 2.5,
+        "cardboard_package": 5.0,
+        "iron": 4.0,
+        "coal": 2.0,
+        "stone": 1.5
+      }
+    },
+    "joinedPlayers": {
+      "value": [],
+      "comment": "Danh sách người chơi đã tham gia thế giới. Người chơi sẽ được phát sách hướng dẫn khi tham gia lần đầu."
+    }
+  },
+  "damage": {
+    "bulletBlockBreaking": {
+      "value": false,
+      "comment": "Đạn/bom có thể phá block khi trúng. Đã tắt để bảo vệ căn cứ DayZ. Việc này cũng tắt phá block bằng nổ (nhưng không tắt bản thân vụ nổ) và ngăn đạn cháy đặt lửa block."
+    },
+    "bulletExplosions": {
+      "value": false,
+      "comment": "Đạn/bom có thể nổ. Đã tắt để bảo vệ căn cứ DayZ. Việc này không tắt phá block, nhưng sẽ gần như vô hiệu hóa vũ khí phá block diện rộng."
+    },
+    "vehicleBlockBreaking": {
+      "value": false,
+      "comment": "Phương tiện có thể phá block khi đâm vào hoặc nổ. Đã tắt để bảo vệ căn cứ DayZ. Nếu false, phương tiện sẽ dừng lại khi va chạm block."
+    },
+    "vehicleDestruction": {
+      "value": true,
+      "comment": "Phương tiện có thể bị phá hủy khi đâm vào block tốc độ cao. Đặt false nếu không muốn mất xe do tường đặt sai vị trí."
+    },
+    "vehicleExplosions": {
+      "value": false,
+      "comment": "Phương tiện nổ khi rơi hoặc bị bắn rơi. Đã tắt để tránh grief căn cứ. Nếu false, phương tiện sẽ biến mất khi rơi."
+    },
+    "creativePlayerDamage": {
+      "value": false,
+      "comment": "Nếu true, sát thương từ phương tiện và súng sẽ áp dụng lên người chơi Creative."
+    },
+    "wheelBreakage": {
+      "value": true,
+      "comment": "Bánh xe có thể bị thủng (xẹp lốp)."
+    },
+    "wheelDamageIgnoreVelocity": {
+      "value": false,
+      "comment": "Bỏ qua vận tốc khi tính sát thương bánh xe."
+    },
+    "allowExternalDamage": {
+      "value": true,
+      "comment": "Nếu true, nguồn sát thương ngoài IV (súng TACZ, mod khác) có thể gây sát thương phương tiện. Bật để súng TACZ bắn hỏng được xe — phù hợp DayZ."
+    },
+    "propellerDamageFactor": {
+      "value": 1.0,
+      "comment": "Hệ số sát thương do cánh quạt."
+    },
+    "jetDamageFactor": {
+      "value": 1.0,
+      "comment": "Hệ số sát thương do động cơ phản lực."
+    },
+    "wheelDamageFactor": {
+      "value": 1.0,
+      "comment": "Hệ số sát thương do bánh xe lên thực thể."
+    },
+    "crashDamageFactor": {
+      "value": 1.0,
+      "comment": "Hệ số sát thương do va chạm."
+    },
+    "bulletDamageFactor": {
+      "value": 1.0,
+      "comment": "Hệ số sát thương do đạn lên phương tiện."
+    },
+    "wheelDamageMinimumVelocity": {
+      "value": 0.2,
+      "comment": "Vận tốc tối thiểu (block/giây) để phương tiện gây sát thương cho thực thể bằng bánh xe."
+    },
+    "packBulletDamageFactors": {
+      "value": {
+        "mts": 1.0,
+        "mtsofficialpack": 1.0
+      },
+      "comment": "Ánh xạ hệ số sát thương đạn theo pack. Giá trị áp dụng cho tất cả đạn trong pack khi trúng mục tiêu, dù là phương tiện hay thực thể."
+    }
+  },
+  "fuel": {
+    "comment1": "Phần sau dùng để cấu hình nhiên liệu cho động cơ. Mỗi mục là một loại nhiên liệu.",
+    "comment2": "Bên trong mỗi mục là giá trị công suất của các chất lỏng được coi là loại nhiên liệu đó.",
+    "comment3": "Có thể đổi chất lỏng làm nhiên liệu bằng cách chỉnh giá trị. Xem sách hướng dẫn trong game để biết thêm.",
+    "comment4": "Nếu khó tìm tên chất lỏng, chạy game với mod mong muốn và kiểm tra danh sách 'lastLoadedFluids'. Danh sách chứa tất cả chất lỏng có trong lần chạy gần nhất.",
+    "comment5": "Phần tử đầu tiên là registered fluid name, phần tử thứ hai là tên hiển thị. Chỉ dùng tên đầu tiên, vì tên thứ hai thay đổi theo ngôn ngữ game.",
+    "fuels": {
+      "furnace": {
+        "lava": 1.0
+      },
+      "brewing_stand": {
+        "lava": 1.0
+      },
+      "diesel": {
+        "creosote": 0.7,
+        "diesel": 1.0,
+        "lava": 1.0,
+        "oil": 0.5,
+        "biodiesel": 0.8
+      },
+      "avgas": {
+        "lava": 1.0,
+        "gasoline": 1.0
+      },
+      "gasoline": {
+        "lava": 1.0,
+        "gasoline": 1.0,
+        "ethanol": 0.85
+      }
+    }
+  }
+}
