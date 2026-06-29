@@ -1,8 +1,8 @@
 {
   "launcher": {
-    "version": "1.0.0",
+    "version": "1.2.1",
     "url": "https://bibe707.github.io/thanhnguyenhoi-update/downloads/NguyenGioiLauncher-Setup.exe",
-    "notes": "Phien ban dau tien chinh thuc."
+    "notes": "Code quality fix + RSP auto-enable + DayZ mod sync (33 mods)."
   },
   "news": [
     {
@@ -256,10 +256,46 @@
     "nguyengioi": {
       "files": [
         {
-          "path": "ComplementaryReimagined_r5.7.1.zip",
-          "url": "https://bibe707.github.io/thanhnguyenhoi-update/files/nguyengioi/ComplementaryReimagined_r5.7.1.zip",
+          "path": "shaderpacks/ComplementaryReimagined_r5.7.1.zip",
+          "url": "https://bibe707.github.io/thanhnguyenhoi-update/files/nguyengioi/shaderpacks/ComplementaryReimagined_r5.7.1.zip",
           "sha1": "540b69e21ee4b6ef1d9837b670bbb89d07d666c3",
           "size": 515500
+        },
+        {
+          "path": "resourcepacks/Murim_3D.zip",
+          "url": "https://bibe707.github.io/thanhnguyenhoi-update/files/nguyengioi/resourcepacks/Murim_3D.zip",
+          "sha1": "89682f7d576a8e72f1002747e924e0bec5df9069",
+          "size": 30308783
+        },
+        {
+          "path": "resourcepacks/Murim_Mob.zip",
+          "url": "https://bibe707.github.io/thanhnguyenhoi-update/files/nguyengioi/resourcepacks/Murim_Mob.zip",
+          "sha1": "cd1431b1a71181c2a273cd13bcae8f159859efab",
+          "size": 2087129
+        },
+        {
+          "path": "resourcepacks/Murim_Texture.zip",
+          "url": "https://bibe707.github.io/thanhnguyenhoi-update/files/nguyengioi/resourcepacks/Murim_Texture.zip",
+          "sha1": "11d9886019f4dd12147e2092a33674098a73ba83",
+          "size": 28925765
+        },
+        {
+          "path": "resourcepacks/NGO_3D_ITEM.zip",
+          "url": "https://bibe707.github.io/thanhnguyenhoi-update/files/nguyengioi/resourcepacks/NGO_3D_ITEM.zip",
+          "sha1": "0f3567d800f6bfae5cbf0826f9f0b39e81c27e20",
+          "size": 35460626
+        },
+        {
+          "path": "resourcepacks/NGO_HUD.zip",
+          "url": "https://bibe707.github.io/thanhnguyenhoi-update/files/nguyengioi/resourcepacks/NGO_HUD.zip",
+          "sha1": "01bced6089d1055726855585bca99446e41677f4",
+          "size": 32162923
+        },
+        {
+          "path": "resourcepacks/NGO_MODEL.zip",
+          "url": "https://bibe707.github.io/thanhnguyenhoi-update/files/nguyengioi/resourcepacks/NGO_MODEL.zip",
+          "sha1": "7efc99fd1dae2182754fd129eef14d3e245ee60c",
+          "size": 30563813
         }
       ]
     },
@@ -16332,6 +16368,52 @@
           "url": "https://bibe707.github.io/thanhnguyenhoi-update/files/dayz1201/tacz/tacz_default_gun/README.txt",
           "sha1": "9ba143d7ef7603a01acff27d11b8b04610e9d5d2",
           "size": 385
+        }
+      ]
+    },
+    "murim": {
+      "files": [
+        {
+          "path": "shaderpacks/ComplementaryReimagined_r5.7.1.zip",
+          "url": "https://bibe707.github.io/thanhnguyenhoi-update/files/murim/shaderpacks/ComplementaryReimagined_r5.7.1.zip",
+          "sha1": "540b69e21ee4b6ef1d9837b670bbb89d07d666c3",
+          "size": 515500
+        },
+        {
+          "path": "resourcepacks/Murim_3D.zip",
+          "url": "https://bibe707.github.io/thanhnguyenhoi-update/files/murim/resourcepacks/Murim_3D.zip",
+          "sha1": "89682f7d576a8e72f1002747e924e0bec5df9069",
+          "size": 30308783
+        },
+        {
+          "path": "resourcepacks/Murim_Mob.zip",
+          "url": "https://bibe707.github.io/thanhnguyenhoi-update/files/murim/resourcepacks/Murim_Mob.zip",
+          "sha1": "cd1431b1a71181c2a273cd13bcae8f159859efab",
+          "size": 2087129
+        },
+        {
+          "path": "resourcepacks/Murim_Texture.zip",
+          "url": "https://bibe707.github.io/thanhnguyenhoi-update/files/murim/resourcepacks/Murim_Texture.zip",
+          "sha1": "11d9886019f4dd12147e2092a33674098a73ba83",
+          "size": 28925765
+        },
+        {
+          "path": "resourcepacks/NGO_3D_ITEM.zip",
+          "url": "https://bibe707.github.io/thanhnguyenhoi-update/files/murim/resourcepacks/NGO_3D_ITEM.zip",
+          "sha1": "0f3567d800f6bfae5cbf0826f9f0b39e81c27e20",
+          "size": 35460626
+        },
+        {
+          "path": "resourcepacks/NGO_HUD.zip",
+          "url": "https://bibe707.github.io/thanhnguyenhoi-update/files/murim/resourcepacks/NGO_HUD.zip",
+          "sha1": "01bced6089d1055726855585bca99446e41677f4",
+          "size": 32162923
+        },
+        {
+          "path": "resourcepacks/NGO_MODEL.zip",
+          "url": "https://bibe707.github.io/thanhnguyenhoi-update/files/murim/resourcepacks/NGO_MODEL.zip",
+          "sha1": "7efc99fd1dae2182754fd129eef14d3e245ee60c",
+          "size": 30563813
         }
       ]
     }
