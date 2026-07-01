@@ -1,6 +1,6 @@
 {
   "_doc": "File tin tức cho Launcher. Mỗi server có tin tức riêng. Đặt tại https://bibe707.github.io/thanhnguyenhoi-update/news.json. Chạy `npm run update-news` để push lên GitHub Pages.",
-  "updated": "2026-06-30",
+  "updated": "2026-07-01",
   "servers": {
     "craftingdead": {
       "_name": "Crafting Dead v3",
